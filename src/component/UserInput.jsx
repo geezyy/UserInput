@@ -1,5 +1,7 @@
+// Import React
 import React from 'react'
 
+// create UserInput Function
 function UserInput() {
   return (
     <div>
@@ -8,4 +10,5 @@ function UserInput() {
   )
 }
 
+// export 
 export default UserInput
