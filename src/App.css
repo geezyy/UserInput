@@ -4,23 +4,45 @@
   box-sizing: border-box;
 }
 
-.App{
-  display:flex;
+.App {
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-  background-color: blue;
+  font-size: 25px;
+  background-color: bisque;
 }
 
-.texts{
-  width:30rem;
-  font-size:20px;
-  padding: 10px;
+.myOutput {
+  color: green;
+  margin: 0 9rem;
 }
 
-.para{
-  margin-top: 20px;
-  font-size:20px;
+.myText {
+  background-color: whitesmoke;
+  height: 7rem;
+  width: 45rem;
+  padding: 0.4rem 5rem 2rem;
+  margin: 2.5rem 0;
+  border-radius: 25px;
 }
+
+.myInput {
+  width: 100%;
+  padding: 1rem;
+}
+
+.inputBox {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 0 16rem;
+}
+
+/* .inputBox:focus {
+  font-size: 35px;
+  border: 0.5 solid grey;
+}
+
+.myInput:focus {
+  border: 1px solid plum;
+} */
